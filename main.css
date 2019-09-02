@@ -1,0 +1,21 @@
+#colorChangeBox{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}
+
+#alertBox{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+
+#printOutArray{
+    background-color: pink;
+    height: 100px;
+    width: 200px;
+}
+
+div{
+    margin-bottom: 70px
+}
