@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" onclick='recordClicks()'>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,15 +20,15 @@
        When the checkbox is unchecked the item is uncrossed out
     <div>
         <ul>
-            <h2 id='one' ><input type="checkbox" />Tea</h2>
+            <h2 id='one'><input type="checkbox" onclick='crossOff()' />Tea</h2>
         </ul>
     </div>
 
     4. Click the pink box to list out the contents of the array (found in main.js)
 
-    <div id='printOutArray'></div>
+    <div id='printOutArray' onclick='printArray()'></div>
 
-    
+
     5. Write a function that records the number of clicks that have been done on the page and logs it to the console
 
 

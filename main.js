@@ -11,13 +11,22 @@ function createAlert(){
 }
 
 function crossOff(){
-
+	if(document.getElementById('one').style.textDecoration == ''){
+		document.getElementById('one').style.textDecoration = 'line-through';
+	}else{
+		document.getElementById('one').style.textDecoration = '';
+	}
 }
 
 function printArray(){
-    let arrayToPrint = ['Snake', 'Dog' ,'Scorpion', 'Crocodile', 'Hippopotamus']
+  let arrayToPrint = ['Snake', 'Dog' ,'Scorpion', 'Crocodile', 'Hippopotamus'];
+	for(i=0; i<arrayToPrint.length; i++){
+			console.log(arrayToPrint[i]);
+		}
 }
 
+let clicks = 0;
 function recordClicks(){
-    
+	clicks++;
+	console.log(clicks);
 }
